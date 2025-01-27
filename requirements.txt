@@ -12,3 +12,5 @@
 jax>=0.4.10
 jaxlib>=0.4.10
 diffrax>=0.2.4
+matplotlib>=3.3
+numpy>=1.19      
