@@ -1,0 +1,14 @@
+# requirements.txt
+#
+# Requirements for the Stochastic Reaction–Diffusion Lotka–Volterra code
+# when running on Google Colab Pro+.
+# 
+# Note:
+#  1) Colab already includes some version of jax/jaxlib. Often, you'll upgrade
+#     to a specific CUDA-compatible wheel for best GPU performance.
+#  2) For CPU-only usage, installing "jax" and "jaxlib" directly can suffice.
+#  3) If you need exact reproducibility, pin versions (e.g., jax==0.4.10).
+
+jax>=0.4.10
+jaxlib>=0.4.10
+diffrax>=0.2.4
